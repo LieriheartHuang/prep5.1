@@ -1,6 +1,7 @@
 b=input("Enter food:\n")
 a=input("Enter price:\n")
+type(a)<>
 if a<=20
 print("That "+b+" is affordable.")
-if a>20
+else a>20
 print("That "+b+" is expensive.”）
